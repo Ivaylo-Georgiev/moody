@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, p, .centered-screen, .mood, .insight, #top-tracks-list {
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 30px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.green {
+  color: #1DB954;
+}
+
+.logo {
+  width: 300px;
+}
+
+.centered-screen {
+  width: 100%;
+  min-width: 400px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #1DB954;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.feed {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  min-width: 400px;
+}
+
+.mood-icon, .insight-icon {
+  width: 150px;
+}
+
+.mood-features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  max-width: 700px;
+}
+
+#moods, #insights {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mood, .insight {
+  margin: 30px;
+  width: 200px;
+  height: 300px;
+}
+
+.mood p, .insight p {
+  font-size: 12px;
+}
