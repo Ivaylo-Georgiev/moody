@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '956b1e661586432f9d7a4de4f30567e1';
 var client_secret = 'a1e5c44636544950a74d4d18be901748';
-var redirect_uri = 'http://localhost:8888/callback';
+var redirect_uri = 'http://100.25.24.188:80/callback';
 
 /**
  * Generates a random string containing numbers and letters
@@ -124,5 +124,5 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-console.log('Listening on 8888');
-app.listen(8888);
+console.log('Listening on 80');
+app.listen(80);
