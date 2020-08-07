@@ -2,9 +2,6 @@
 
 ![Home](https://github.com/Ivaylo-Georgiev/moody/blob/master/home.gif)  
 
-## Overview
-Moody is a web application, which generates mood profiles, based on the music, you love listening to. It also provides interesting insights about your favourite songs, you might have never thought of.  
-
 ## Installation
 
 ### Clone
