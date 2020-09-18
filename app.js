@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '';
 var client_secret = '';
-var redirect_uri = 'http://100.25.24.188:80/callback';
+var redirect_uri = 'https://sleepy-peak-52589.herokuapp.com/callback';
 
 /**
  * Generates a random string containing numbers and letters
@@ -124,5 +124,5 @@ app.get('/refresh_token', function(req, res) {
   });
 });
 
-console.log('Listening on 80');
-app.listen(80);
+console.log('Listening on Heroku port');
+app.listen(process.env.PORT || 5000);
