@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 
 var client_id = '';
 var client_secret = '';
-var redirect_uri = 'https://sleepy-peak-52589.herokuapp.com/callback';
+var redirect_uri = 'https://moody-spotify.herokuapp.com/callback';
 
 /**
  * Generates a random string containing numbers and letters
