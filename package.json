@@ -1,0 +1,33 @@
+{
+  "name": "moody",
+  "version": "1.0.0",
+  "description": "Deploy moody to Heroku",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivaylo-Georgiev/moody.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Ivaylo Georgiev",
+  "license": "ISC",
+  "engines": {
+    "node": "12.16.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Ivaylo-Georgiev/moody/issues"
+  },
+  "homepage": "https://github.com/Ivaylo-Georgiev/moody#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.2"
+  }
+}
